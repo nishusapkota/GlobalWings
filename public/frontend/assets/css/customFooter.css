@@ -1,0 +1,47 @@
+.footer-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-logo .footer-img{
+  height: 200px;
+
+}
+
+.first-content {
+    margin-bottom: 1rem;
+}
+
+.socialLink ul li{
+    position: relative;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .socialLink ul li a:hover {
+    color: #DA2C46;
+  }
+
+  .socialLink ul li:before{
+    position: absolute;
+    content: "";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 700;
+    font-size: 12px;
+    color: #b6bbc0;
+    left: 0px;
+    top: 0px;
+  }
+
+  .socialLink ul li:last-child{
+    margin-bottom: 0px;
+  }
+
+  .socialLink ul li a{
+    color: #b6bbc0;
+    margin-left: 1rem;
+  }
+
+
