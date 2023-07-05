@@ -38,30 +38,30 @@
                     <nav class="main-menu navbar-expand-md navbar-light">
                         <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                             <ul class="navigation clearfix">
-                                <li class="current"><a href="{{route('index')}}">Home</a>
+                                <li class="{{ request()->is('/') ? 'current' : '' }}"><a href="{{route('index')}}">Home</a>
                                 </li> 
-                                <li class=""><a href="{{route('about')}}">About Us</a>
+                                <li class="{{ request()->is('about') ? 'current' : '' }}"><a href="{{route('about')}}">About Us</a>
                                 </li>
-                                <li class="dropdown"><a href="{{route('destination')}}">Destinations</a>
+                                <li class="dropdown {{ request()->is('destination*') ? 'current' : '' }}"><a href="{{route('destination')}}">Destinations</a>
                                     <ul>
-                                        <li><a href="{{route('destination-detail')}}">Study in Australia</a></li>
-                                        <li><a href="{{route('destination-detail')}}">Study in Canada</a></li>
-                                        <li><a href="{{route('destination-detail')}}">Study in USA</a></li>
-                                        <li><a href="{{route('destination-detail')}}">Study in UK</a></li>
-                                        <li><a href="{{route('destination-detail')}}">Study in NewZealand</a></li>
+                                        <li class="{{ request()->is('/destination-detail') ? 'current' : '' }}"><a href="{{route('destination-detail')}}">Study in Australia</a></li>
+                                        <li class="{{ request()->is('/destination-detail') ? 'current' : '' }}"><a href="{{route('destination-detail')}}">Study in Canada</a></li>
+                                        <li class="{{ request()->is('/destination-detail') ? 'current' : '' }}"><a href="{{route('destination-detail')}}">Study in USA</a></li>
+                                        <li class="{{ request()->is('/destination-detail') ? 'current' : '' }}"><a href="{{route('destination-detail')}}">Study in UK</a></li>
+                                        <li class="{{ request()->is('/destination-detail') ? 'current' : '' }}"><a href="{{route('destination-detail')}}">Study in NewZealand</a></li>
                                     </ul>
                                 </li>
-                                <li class="dropdown"><a href="{{route('service')}}">Test Preparations</a>
+                                <li class="dropdown {{ request()->is('service*') ? 'current' : '' }}"><a href="{{route('service')}}">Test Preparations</a>
                                     <ul>
-                                        <li><a href="{{route('service-detail')}}">IELTS</a></li>
-                                        <li><a href="{{route('service-detail')}}">PTE Academic</a></li>
-                                        <li><a href="{{route('service-detail')}}">TOEFL IBT</a></li>
-                                        <li><a href="{{route('service-detail')}}">Japanese Language</a></li>
-                                        <li><a href="{{route('service-detail')}}">Korean Language</a></li>
+                                        <li {{ request()->is('/service-detail') ? 'current' : '' }}><a href="{{route('service-detail')}}">IELTS</a></li>
+                                        <li {{ request()->is('/service-detail') ? 'current' : '' }}><a href="{{route('service-detail')}}">PTE Academic</a></li>
+                                        <li {{ request()->is('/service-detail') ? 'current' : '' }}><a href="{{route('service-detail')}}">TOEFL IBT</a></li>
+                                        <li {{ request()->is('/service-detail') ? 'current' : '' }}><a href="{{route('service-detail')}}">Japanese Language</a></li>
+                                        <li {{ request()->is('/service-detail') ? 'current' : '' }}><a href="{{route('service-detail')}}">Korean Language</a></li>
                                         
                                     </ul>
                                 </li>                             
-                                <li><a href="{{route('contact')}}">Contact Us</a></li>
+                                <li class="{{ request()->is('contacts') ? 'current' : '' }}"><a href="{{route('contact')}}">Contact Us</a></li>
                             </ul>
                         </div>
                     </nav>

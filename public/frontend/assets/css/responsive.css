@@ -242,6 +242,11 @@
     display: none !important;
   }
 
+  .header-lower .outer-box .menu-right-content .btn-box {
+    display: none !important;
+  }
+
+
   .menu-area .mobile-nav-toggler {
     display: block;
     margin-top: 42px;

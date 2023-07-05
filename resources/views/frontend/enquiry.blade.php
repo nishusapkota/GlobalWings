@@ -94,9 +94,9 @@
                           >
                         </div>
                         <ul class="list-item clearfix">
-                          <li>.&nbsp;<a href="index.html">Experienced</a>&nbsp;.</li>
-                          <li><a href="index.html">Specialized</a>&nbsp;.</li>
-                          <li><a href="index.html">Professional</a>&nbsp;.</li>
+                          <li>.&nbsp;<a href="{{route('index')}}">Experienced</a>&nbsp;.</li>
+                          <li><a href="{{route('index')}}">Specialized</a>&nbsp;.</li>
+                          <li><a href="{{route('index')}}">Professional</a>&nbsp;.</li>
                         </ul>
                       </div>
                     </div>

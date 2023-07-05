@@ -47,11 +47,11 @@
                         <div>
                             <h3 class="mb-4">Test Preparation</h3>
                             <ul class="categories-list clearfix">
-                                <li><a href="pte.html" >PTE Academic</a></li>
-                                <li><a href="ielts.html" class="active">IELTS</a></li>
-                                <li><a href="tofel.html">TOFEL IBT</a></li>
-                                <li><a href="japanese.html">Japanese Language</a></li>
-                                <li><a href="korean.html">Korean Language</a></li>
+                                <li><a href="{{route('destination-detail')}}" >PTE Academic</a></li>
+                                <li><a href="{{route('destination-detail')}}" class="active">IELTS</a></li>
+                                <li><a href="{{route('destination-detail')}}">TOFEL IBT</a></li>
+                                <li><a href="{{route('destination-detail')}}l">Japanese Language</a></li>
+                                <li><a href="{{route('destination-detail')}}">Korean Language</a></li>
                             </ul>
                         </div>
                     </div>

@@ -56,11 +56,11 @@
                         <div>
                             <h3 class="mb-4">Study Destination</h3>
                             <ul class="categories-list clearfix">
-                                <li><a href="australia.html" class="active">Study in Australia</a></li>
-                                <li><a href="canada.html">Study in Canada</a></li>
-                                <li><a href="usa.html">Study in USA</a></li>
-                                <li><a href="uk.html">Study in UK</a></li>
-                                <li><a href="new-zealand.html">Study in New Zealand</a></li>
+                                <li><a href="{{route('destination-detail')}}" class="active">Study in Australia</a></li>
+                                <li><a href="{{route('destination-detail')}}">Study in Canada</a></li>
+                                <li><a href="{{route('destination-detail')}}">Study in USA</a></li>
+                                <li><a href="{{route('destination-detail')}}">Study in UK</a></li>
+                                <li><a href="{{route('destination-detail')}}">Study in New Zealand</a></li>
                             </ul>
                         </div>
                     </div>

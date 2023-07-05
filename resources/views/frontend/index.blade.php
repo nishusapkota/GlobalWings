@@ -15,7 +15,7 @@
                     <h1>A better future <br />starts here</h1>
                     <p>We support students by introducing Universities abroad and <br />provide help in choosing the best courses.</p>
                     <div class="btn-box">
-                        <a href="enquiry.html" class="theme-btn style-two"><i class="fas fa-atom"></i>Enquiry Now</a>
+                        <a href="{{route('enquiry')}}" class="theme-btn style-two"><i class="fas fa-atom"></i>Enquiry Now</a>
                     </div>
                 </div>  
             </div>
@@ -27,7 +27,7 @@
                     <h1>A better future <br />starts here</h1>
                     <p>We support students by introducing Universities abroad and <br />provide help in choosing the best courses.</p>
                     <div class="btn-box">
-                        <a href="enquiry.html" class="theme-btn style-two"><i class="fas fa-atom"></i>Enquiry Now</a>
+                        <a href="{{route('enquiry')}}" class="theme-btn style-two"><i class="fas fa-atom"></i>Enquiry Now</a>
                     </div>
                 </div>
             </div>
@@ -39,7 +39,7 @@
                     <h1>A better future <br />starts here</h1>
                     <p>We support students by introducing Universities abroad and <br />provide help in choosing the best courses.</p>
                     <div class="btn-box">
-                        <a href="enquiry.html" class="theme-btn style-two mar-0"><i class="fas fa-atom"></i>Enquiry Now</a>
+                        <a href="{{route('enquiry')}}" class="theme-btn style-two mar-0"><i class="fas fa-atom"></i>Enquiry Now</a>
                     </div>
                 </div>  
             </div>
@@ -52,11 +52,11 @@
   <section class="clients-section">
     <div class="auto-container">
         <div class="clients-carousel owl-carousel owl-theme owl-dots-none owl-nav-none">
-            <figure class="client-logo"><a href="index.html"><img src="{{asset('frontend/assets/images/clients/clients-1.png')}}" alt=""></a></figure>
-            <figure class="client-logo"><a href="index.html"><img src="{{asset('frontend/assets/images/clients/clients-2.png')}}" alt=""></a></figure>
-            <figure class="client-logo"><a href="index.html"><img src="{{asset('frontend/assets/images/clients/clients-3.png')}}" alt=""></a></figure>
-            <figure class="client-logo"><a href="index.html"><img src="{{asset('frontend/assets/images/clients/clients-4.png')}}" alt=""></a></figure>
-            <figure class="client-logo"><a href="index.html"><img src="{{asset('frontend/assets/images/clients/clients-5.png')}}" alt=""></a></figure>
+            <figure class="client-logo"><a href="{{route('index')}}"><img src="{{asset('frontend/assets/images/clients/clients-1.png')}}" alt=""></a></figure>
+            <figure class="client-logo"><a href="{{route('index')}}"><img src="{{asset('frontend/assets/images/clients/clients-2.png')}}" alt=""></a></figure>
+            <figure class="client-logo"><a href="{{route('index')}}"><img src="{{asset('frontend/assets/images/clients/clients-3.png')}}" alt=""></a></figure>
+            <figure class="client-logo"><a href="{{route('index')}}"><img src="{{asset('frontend/assets/images/clients/clients-4.png')}}" alt=""></a></figure>
+            <figure class="client-logo"><a href="{{route('index')}}"><img src="{{asset('frontend/assets/images/clients/clients-5.png')}}" alt=""></a></figure>
         </div>
     </div>
 </section>
@@ -76,7 +76,7 @@
                         <figure class="image-box"><img src="{{asset('frontend/assets/images/Destinations/newZealand.png')}}" alt=""></figure>
                         <div class="lower-content">
                             <div class="inner">
-                                <h4><a href="new-zealand.html">Study in New Zealand</a></h4>
+                                <h4><a href="{{route('destination-detail')}}">Study in New Zealand</a></h4>
                             </div>
                         </div>
                     </div>
@@ -88,7 +88,7 @@
                         <figure class="image-box"><img src="{{asset('frontend/assets/images/Destinations/canada.png')}}" alt=""></figure>
                         <div class="lower-content">
                             <div class="inner">
-                                <h4><a href="canada.html">Study in Canada</a></h4>
+                                <h4><a href="{{route('destination-detail')}}">Study in Canada</a></h4>
                             </div>
                         </div>
                     </div>
@@ -100,7 +100,7 @@
                         <figure class="image-box"><img src="{{asset('frontend/assets/images/Destinations/uk.png')}}" alt=""></figure>
                         <div class="lower-content">
                             <div class="inner">
-                                <h4><a href="uk.html">Study in UK</a></h4>
+                                <h4><a href="{{route('destination-detail')}}">Study in UK</a></h4>
                             </div>
                         </div>
                     </div>
@@ -112,7 +112,7 @@
                         <figure class="image-box"><img src="{{asset('frontend/assets/images/Destinations/australia.png')}}" alt=""></figure>
                         <div class="lower-content">
                             <div class="inner">
-                                <h4><a href="australia.html">Study in Australia</a></h4>
+                                <h4><a href="{{route('destination-detail')}}">Study in Australia</a></h4>
                             </div>
                         </div>
                     </div>
@@ -201,7 +201,7 @@
                     <figure class="image-box"><img src="{{asset('frontend/assets/images/courses/PTE.png')}}" alt=""></figure>
                     <div class="lower-content">
                         <div class="content-box">
-                            <h3><a href="pte.html">PTE Academic</a></h3>
+                            <h3><a href="{{route('destination-detail')}}">PTE Academic</a></h3>
                         </div>
                        
                     </div>
@@ -212,7 +212,7 @@
                     <figure class="image-box"><img src="{{asset('frontend/assets/images/courses/IELTS.png')}}" alt=""></figure>
                     <div class="lower-content">
                         <div class="content-box">
-                            <h3><a href="ielts.html">IELTS</a></h3>
+                            <h3><a href="{{route('destination-detail')}}">IELTS</a></h3>
                         </div>
                        
                     </div>
@@ -223,7 +223,7 @@
                     <figure class="image-box"><img src="{{asset('frontend/assets/images/courses/TOEFL.png')}}" alt=""></figure>
                     <div class="lower-content">
                         <div class="content-box">
-                            <h3><a href="tofel.html">TOFEL IBT</a></h3>
+                            <h3><a href="{{route('destination-detail')}}">TOFEL IBT</a></h3>
                         </div>
                        
                     </div>
@@ -245,7 +245,7 @@
                     <figure class="image-box"><img src="{{asset('frontend/assets/images/courses/korean.png')}}" alt=""></figure>
                     <div class="lower-content">
                         <div class="content-box">
-                            <h3><a href="korean.html">Korean Language</a></h3>
+                            <h3><a href="{{route('destination-detail')}}">Korean Language</a></h3>
                         </div>
                        
                     </div>
